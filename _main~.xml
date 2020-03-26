@@ -1,0 +1,407 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha39.1.dtd" >
+   <PATCH nodename="D:\Dropbox\Projects\_KarottePresetEngine\_main.v4p" systemname="_main2" filename="C:\Users\LattePanda\Desktop\cats\_main2.v4p" scrollx="0" scrolly="0">
+   <BOUNDS type="Window" left="0" top="0" width="9495" height="7335">
+   </BOUNDS>
+   <PACK Name="addonpack" Version="38.1.0">
+   </PACK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="8" systemname="IOBox (String)">
+   <BOUNDS type="Node" left="2490" top="3060" width="6285" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2490" top="3060" width="1755" height="705">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|2)  PresetEngine and Output patches are on the same PC|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <PACK Name="zmq" Version="0.5.7">
+   </PACK>
+   <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="10">
+   <BOUNDS type="Node" left="2490" top="2235" width="3345" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2490" top="2235" width="1380" height="705">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|1) the GUI can be independent on another PC|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="16">
+   <BOUNDS type="Node" left="1605" top="600" width="1050" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1605" top="600" width="5670" height="585">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt; RCP server _Add this node, then ctl+K to expose your ioboxes, set mins maxes ( the sliders default to massive high and low) and defaults&cr;&lf;|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="21" systemname="IOBox (String)">
+   <BOUNDS type="Box" left="4980" top="4095" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="4980" top="4095" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="Textx">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="Output String" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="59" systemname="IOBox (Value Advanced)">
+   <BOUNDS type="Box" left="735" top="1080" width="450" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="735" top="1080" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Integer">
+   </PIN>
+   <PIN pinname="Y Input Value" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="60">
+   <BOUNDS type="Node" left="1560" top="1140" width="2010" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1560" top="1140" width="2010" height="270">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt; Clients connected|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <NODE systemname="Rabbit (RCP)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Rabbit (RCP)" componentmode="Hidden" id="64">
+   <BOUNDS type="Node" left="735" top="645" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="735" top="645" width="3000" height="3000">
+   </BOUNDS>
+   <PIN pinname="Host" visible="1" slicecount="1" values="0.0.0.0">
+   </PIN>
+   <PIN pinname="Client Count" visible="1">
+   </PIN>
+   <PIN pinname="Port" slicecount="1" values="10000">
+   </PIN>
+   </NODE>
+   <PACK Name="dx11" Version="33.0">
+   </PACK>
+   <LINK srcnodeid="64" srcpinname="Client Count" dstnodeid="59" dstpinname="Y Input Value">
+   </LINK>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="66">
+   <BOUNDS type="Box" left="1530" top="4110" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="1530" top="4110" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="Patch1">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   </NODE>
+   <NODE systemname="Patch1" filename="Patch1.v4p" nodename="Patch1.v4p" componentmode="InAWindow" id="65">
+   <BOUNDS type="Node" left="1665" top="4500" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Window" left="0" top="7500" width="14595" height="8250">
+   </BOUNDS>
+   <PIN pinname="Label" visible="1">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="66" srcpinname="Output String" dstnodeid="65" dstpinname="Label">
+   </LINK>
+   <PACK Name="vvvv-ZeroMQ" Version="0.5.5">
+   </PACK>
+   <NODE systemname="KarrottePreset (gui)" filename="D:\Dropbox\Projects\_Isolator\vl\KarottePresetEngine.vl" nodename="KarrottePreset (gui)" componentmode="Hidden" id="70" debug="0">
+   <BOUNDS type="Node" left="495" top="2970" width="1290" height="270">
+   </BOUNDS>
+   <PIN pinname="DefaultPath" visible="1">
+   </PIN>
+   <PIN pinname="Path" visible="1">
+   </PIN>
+   <PIN pinname="Showfile Path" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="73">
+   <BOUNDS type="Node" left="4515" top="2175" width="4395" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="4515" top="2175" width="3510" height="795">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|Right click a numbered button to save, left to recall a preset.  A red number means it has been saved to, you can write over it by further saves|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <PACK Name="dx11-particles" Version="1.0.7">
+   </PACK>
+   <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="74">
+   <BOUNDS type="Node" left="11415" top="7215" width="9630" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="11415" top="7215" width="2790" height="1095">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="|&lt;- Add a Group(RCP) node in your patch, if you name from outside, you can have multiple of the samke patch presets saved individually|">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="75">
+   <BOUNDS type="Node" left="45" top="3735" width="8325" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="45" top="3735" width="8325" height="270">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="-------------------------------------------------------------------------------------------------------------">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" systemname="IOBox (String)" componentmode="InABox" id="76">
+   <BOUNDS type="Node" left="15" top="1710" width="8325" height="270">
+   </BOUNDS>
+   <BOUNDS type="Box" left="15" top="1710" width="9330" height="375">
+   </BOUNDS>
+   <PIN pinname="Input String" visible="0" slicecount="1" values="-------------------------------------------------------------------------------------------------------------">
+   </PIN>
+   <PIN pinname="Output String" visible="0">
+   </PIN>
+   <PIN pinname="Show Grid" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="MultiLine">
+   </PIN>
+   </NODE>
+   <PACK Name="dx11.particles" Version="1.0.5">
+   </PACK>
+   <NODE id="72" nodename="IOBox (String)" componentmode="InABox" systemname="IOBox (String)">
+   <BOUNDS type="Box" left="495" top="2460" width="1695" height="270">
+   </BOUNDS>
+   <BOUNDS type="Node" left="495" top="2460" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="ShowFile.txt">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="|All Files (*.*)||*.*|">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Filename">
+   </PIN>
+   <PIN pinname="Output String" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="72" srcpinname="Output String" dstnodeid="70" dstpinname="Showfile Path">
+   </LINK>
+   <LINK srcnodeid="72" srcpinname="Output String" dstnodeid="70" dstpinname="Path">
+   </LINK>
+   <NODE systemname="Group (EX9)" nodename="Group (EX9)" componentmode="Hidden" id="77">
+   <BOUNDS type="Node" left="1350" top="5205" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer 2" visible="1">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Layer Template Count" slicecount="1" values="5">
+   </PIN>
+   <PIN pinname="Layer 3" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 5" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Layer 4" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="65" srcpinname="Layer" dstnodeid="77" dstpinname="Layer 2">
+   </LINK>
+   <NODE systemname="Vertigo (Transform)" nodename="Vertigo (Transform)" componentmode="Hidden" id="79">
+   <BOUNDS type="Node" left="2760" top="5175" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Transform Out" visible="1">
+   </PIN>
+   </NODE>
+   <PACK Name="fluid3d" Version="v0.9">
+   </PACK>
+   <NODE id="17" systemname="Text" filename="Text.v4p" componentmode="InAWindow" nodename="Text.v4p">
+   <BOUNDS type="Node" left="4965" top="4545" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="4965" top="4545" width="4800" height="3600">
+   </BOUNDS>
+   <BOUNDS type="Window" left="0" top="7500" width="14595" height="8250">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="21" srcpinname="Output String" dstnodeid="17" dstpinname="Unique Name">
+   </LINK>
+   <LINK srcnodeid="17" srcpinname="Layer" dstnodeid="77" dstpinname="Layer 5">
+   </LINK>
+   <NODE systemname="PerfMeter (Debug)" filename="%VVVV%\lib\nodes\modules\Debug\PerfMeter (Debug).v4p" nodename="PerfMeter (Debug)" componentmode="Hidden" id="80">
+   <BOUNDS type="Node" left="4170" top="5220" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   </NODE>
+   <NODE systemname="About (VVVV)" nodename="About (VVVV)" componentmode="Hidden" id="84">
+   <BOUNDS type="Node" left="5640" top="3000" width="100" height="100">
+   </BOUNDS>
+   <PIN pinname="Version" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="83">
+   <BOUNDS type="Box" left="6270" top="3435" width="2100" height="270">
+   </BOUNDS>
+   <BOUNDS type="Node" left="6270" top="3435" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="String Type" slicecount="1" values="Multiline">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="84" srcpinname="Version" dstnodeid="83" dstpinname="Input String" linkstyle="PolyLine">
+   </LINK>
+   <NODE systemname="Inspektor (VVVV)" nodename="Inspektor (VVVV)" componentmode="Hidden" id="85">
+   <BOUNDS type="Node" left="2775" top="6210" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2775" top="6210" width="2595" height="3195">
+   </BOUNDS>
+   <BOUNDS type="Window" left="225" top="0" width="5340" height="8835">
+   </BOUNDS>
+   </NODE>
+   <NODE id="87" nodename="IOBox (String)" componentmode="InABox" systemname="IOBox (String)" hiddenwhenlocked="0" managers="">
+   <PIN pinname="Input String" slicecount="1" visible="1" pintype="Input" values="Patch2">
+   </PIN>
+   <BOUNDS type="Box" left="6270" top="4155" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="6270" top="4155" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Default" slicecount="1" pintype="Configuration" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" pintype="Configuration" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" pintype="Configuration" values="-1">
+   </PIN>
+   <BOUNDS type="Window" left="0" top="0" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Tag" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Pin Visibility" pintype="Configuration" slicecount="1" values="True">
+   </PIN>
+   <PIN pinname="SliceCount Mode" pintype="Configuration" slicecount="1" values="Input">
+   </PIN>
+   <PIN pinname="Columns" pintype="Configuration" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Rows" pintype="Configuration" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Pages" pintype="Configuration" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Show SliceIndex" pintype="Configuration" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Font" pintype="Configuration" slicecount="1" values="|Lucida Sans Unicode|">
+   </PIN>
+   <PIN pinname="Size" pintype="Configuration" slicecount="1" values="7">
+   </PIN>
+   <PIN pinname="Show Grid" pintype="Configuration" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="String Type" pintype="Configuration" slicecount="1" values="String">
+   </PIN>
+   <PIN pinname="Show Characters [#0..#32,#127]" pintype="Configuration" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="SliceOffset" pintype="Input" visible="-1" slicecount="1" values="0">
+   </PIN>
+   <PIN pinname="Evaluate" pintype="Input" visible="-1" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Output String" pintype="Output" visible="1">
+   </PIN>
+   <PIN pinname="Changed" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="ID" pintype="Output" visible="-1">
+   </PIN>
+   </NODE>
+   <NODE id="86" systemname="Patch2" filename="Patch2.v4p" nodename="Patch2.v4p" componentmode="InAWindow" hiddenwhenlocked="0" managers="">
+   <PIN pinname="Label" visible="1">
+   </PIN>
+   <BOUNDS type="Node" width="1905" height="270" left="6180" top="4635">
+   </BOUNDS>
+   <BOUNDS type="Window" left="6030" top="4785" width="9000" height="9000">
+   </BOUNDS>
+   <BOUNDS type="Box" left="6180" top="4635" width="4800" height="4800">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Tag" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Evaluate" pintype="Input" visible="-1" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Window Handle" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="Patch" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="ID" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="87" srcpinname="Output String" dstnodeid="86" dstpinname="Label">
+   </LINK>
+   <NODE id="78" systemname="Renderer (EX9)" filename="" nodename="Renderer (EX9)" componentmode="InAWindow" stayontop="1">
+   <BOUNDS type="Node" width="1650" height="270" left="1335" top="5685">
+   </BOUNDS>
+   <BOUNDS type="Box" left="1335" top="5685" width="6000" height="4500">
+   </BOUNDS>
+   <BOUNDS type="Window" left="22185" top="4530" width="6240" height="5085">
+   </BOUNDS>
+   <PIN pinname="Layers" visible="1">
+   </PIN>
+   <PIN pinname="View" visible="1" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Projection" visible="1">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="79" srcpinname="Transform Out" dstnodeid="78" dstpinname="Projection">
+   </LINK>
+   <LINK srcnodeid="77" srcpinname="Layer" dstnodeid="78" dstpinname="Layers">
+   </LINK>
+   <LINK srcnodeid="86" srcpinname="Layer" dstnodeid="77" dstpinname="Layer 4">
+   <LINKPOINT x="6120" y="4860">
+   </LINKPOINT>
+   </LINK>
+   </PATCH>

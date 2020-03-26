@@ -1,0 +1,149 @@
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv50alpha39.1.dtd" >
+   <PATCH nodename="D:\Dropbox\Projects\_Isolator\Patch2.v4p" systemname="Patch2" filename="C:\Users\Cat\Desktop\cats_15\Patch2.v4p">
+   <BOUNDS type="Window" left="7740" top="3930" width="9000" height="9000">
+   </BOUNDS>
+   <NODE systemname="Group (RCP)" filename="%VVVV%\lib\nodes\plugins\VVVV.Nodes.dll" nodename="Group (RCP)" componentmode="Hidden" id="0">
+   <BOUNDS type="Node" left="630" top="2520" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="630" top="2520" width="3000" height="3000">
+   </BOUNDS>
+   <PIN pinname="Label" visible="1" slicecount="1" values="||">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (String)" componentmode="InABox" id="2" systemname="IOBox (String)">
+   <BOUNDS type="Box" left="585" top="1215" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="585" top="1215" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Input String" slicecount="1" visible="1" values="||">
+   </PIN>
+   <PIN pinname="Default" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="File Mask" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Maximum Characters" slicecount="1" values="-1">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Label">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="2" srcpinname="Output String" dstnodeid="0" dstpinname="Label">
+   <LINKPOINT x="600" y="1830">
+   </LINKPOINT>
+   </LINK>
+   <PACK Name="addonpack" Version="38.1.0">
+   </PACK>
+   <NODE id="3" systemname="Patch2" filename="Patch2.v4p" nodename="Patch2.v4p" componentmode="InAWindow" hiddenwhenlocked="0" managers="">
+   <PIN pinname="Label" visible="1">
+   </PIN>
+   <BOUNDS type="Node" width="1905" height="270" left="0" top="4080">
+   </BOUNDS>
+   <BOUNDS type="Window" left="9480" top="675" width="9000" height="9000">
+   </BOUNDS>
+   <BOUNDS type="Box" left="0" top="4080" width="4800" height="4800">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Tag" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Evaluate" pintype="Input" visible="-1" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Window Handle" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="Patch" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="ID" pintype="Output" visible="-1">
+   </PIN>
+   </NODE>
+   <NODE id="5" systemname="Patch2" filename="Patch2.v4p" nodename="Patch2.v4p" componentmode="InAWindow" hiddenwhenlocked="0" managers="">
+   <PIN pinname="Label" visible="1">
+   </PIN>
+   <BOUNDS type="Node" width="1905" height="270" left="0" top="2415">
+   </BOUNDS>
+   <BOUNDS type="Window" left="9480" top="675" width="9000" height="9000">
+   </BOUNDS>
+   <BOUNDS type="Box" left="0" top="2415" width="4800" height="4800">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Tag" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Evaluate" pintype="Input" visible="-1" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Window Handle" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="Patch" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="ID" pintype="Output" visible="-1">
+   </PIN>
+   </NODE>
+   <NODE id="7" systemname="Patch2" filename="Patch2.v4p" nodename="Patch2.v4p" componentmode="InAWindow" hiddenwhenlocked="0" managers="">
+   <PIN pinname="Label" visible="1">
+   </PIN>
+   <BOUNDS type="Node" width="1905" height="270" left="0" top="1695">
+   </BOUNDS>
+   <BOUNDS type="Window" left="9480" top="675" width="9000" height="9000">
+   </BOUNDS>
+   <BOUNDS type="Box" left="0" top="1695" width="4800" height="4800">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Tag" pintype="Configuration" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Evaluate" pintype="Input" visible="-1" slicecount="1" values="1">
+   </PIN>
+   <PIN pinname="Window Handle" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="Patch" pintype="Output" visible="-1">
+   </PIN>
+   <PIN pinname="ID" pintype="Output" visible="-1">
+   </PIN>
+   </NODE>
+   <NODE systemname="Quad (DX9)" filename="" nodename="Quad (DX9)" componentmode="Hidden" id="8">
+   <BOUNDS type="Node" left="2865" top="2505" width="100" height="100">
+   </BOUNDS>
+   <BOUNDS type="Box" left="2865" top="2505" width="3000" height="3000">
+   </BOUNDS>
+   <PIN pinname="Layer" visible="1">
+   </PIN>
+   <PIN pinname="Enabled" visible="1">
+   </PIN>
+   </NODE>
+   <NODE nodename="IOBox (Node)" componentmode="InABox" id="9">
+   <BOUNDS type="Box" left="2760" top="3345" width="795" height="240">
+   </BOUNDS>
+   <BOUNDS type="Node" left="2760" top="3345" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Layer">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="8" srcpinname="Layer" dstnodeid="9" dstpinname="Input Node">
+   </LINK>
+   <PACK Name="dx11" Version="33.0">
+   </PACK>
+   <PACK Name="dx11.particles" Version="1.0.5">
+   </PACK>
+   <PACK Name="fluid3d" Version="v0.9">
+   </PACK>
+   <PACK Name="vvvv-ZeroMQ" Version="0.5.5">
+   </PACK>
+   <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="10" exposed="1">
+   <BOUNDS type="Box" left="4830" top="1620" width="480" height="480">
+   </BOUNDS>
+   <BOUNDS type="Node" left="4830" top="1620" width="0" height="0">
+   </BOUNDS>
+   <PIN pinname="Y Input Value" slicecount="1" visible="1" values="0">
+   </PIN>
+   <PIN pinname="Units" slicecount="1" values="||">
+   </PIN>
+   <PIN pinname="Precision" slicecount="1" values="4">
+   </PIN>
+   <PIN pinname="Value Type" slicecount="1" values="Boolean">
+   </PIN>
+   <PIN pinname="Behavior" slicecount="1" values="Toggle">
+   </PIN>
+   <PIN pinname="Descriptive Name" slicecount="1" values="Enabled">
+   </PIN>
+   </NODE>
+   <LINK srcnodeid="10" srcpinname="Y Output Value" dstnodeid="8" dstpinname="Enabled">
+   </LINK>
+   </PATCH>

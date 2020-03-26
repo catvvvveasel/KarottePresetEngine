@@ -1,0 +1,1020 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE ROOT PUBLIC "" ""[]>
+<Spread xmlns:r="reflection">
+  <Item Name="Patch1_3">
+    <Values>
+      <Item Datatype="Rgba" Id="Patch1/2/Color Input" Userdata="PinID;19;0;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Color4">0.7176471, 0.2196078, 0.6784314, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/4/Y Input Value" Userdata="PinID;19;0;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.04000044, 3.06, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/8/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0, 1.16, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/12/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">3</Value>
+      </Item>
+      <Item Datatype="Int32" Id="Patch1/14/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Int32">71</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/18/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">1.29</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/19/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">-3.8</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/21/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">15.4</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/22/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">49.16</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/23/Y Input Value" Userdata="PinID;19;0;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.08019309, -2.899852, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/31/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">0.1</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/33/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">0.88</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Patch1/45/Input Enum" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.String">Add</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="All_32" Tag=" ">
+    <Values>
+      <Item Datatype="Rgba" Id="Patch1/2/Color Input" Userdata="PinID;19;0;2.131145;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Color4">0.7176471, 0.2196078, 0.6784314, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/4/Y Input Value" Userdata="PinID;19;0;2.622951;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.04000044, 0, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/8/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0, 0, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/12/Y Input Value" Userdata="PinID;19;0;2.131147;Linear;In">
+        <Value r:Type="System.Single">3</Value>
+      </Item>
+      <Item Datatype="Int32" Id="Patch1/14/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Int32">71</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/18/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">1.29</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/19/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">-3.8</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/21/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">15.4</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/22/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">49.16</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/23/Y Input Value" Userdata="PinID;19;0;2.786887;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.08019309, -1.159852, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/31/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">0.1</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/33/Y Input Value" Userdata="PinID;19;0;1.475408;Linear;In">
+        <Value r:Type="System.Single">0.88</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Patch1/45/Input Enum" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.String">Add</Value>
+      </Item>
+      <Item Datatype="String" Id="Textx/1/Input String" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">RCP Preseter</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Textx/8/Input Enum" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">@Malgun Gothic Semilight</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/13/Y Input Value" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">-0.7500006, 0.8699985</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/14/Y Input Value" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">0.1999998, 0.21</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="All_31" Tag=" ">
+    <Values>
+      <Item Datatype="Rgba" Id="Patch1/2/Color Input" Userdata="PinID;19;0;2.131145;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Color4">0.7176471, 0.2196078, 0.6784314, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/4/Y Input Value" Userdata="PinID;19;0;2.622951;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.04000044, 0, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/8/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0, 0, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/12/Y Input Value" Userdata="PinID;19;0;2.131147;Linear;In">
+        <Value r:Type="System.Single">3</Value>
+      </Item>
+      <Item Datatype="Int32" Id="Patch1/14/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Int32">71</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/18/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">1.29</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/19/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">-3.8</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/21/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">15.4</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/22/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">49.16</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/23/Y Input Value" Userdata="PinID;19;0;2.786887;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.08019309, -1.159852, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/31/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">0.1</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/33/Y Input Value" Userdata="PinID;19;0;1.475408;Linear;In">
+        <Value r:Type="System.Single">0.88</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Patch1/45/Input Enum" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.String">Add</Value>
+      </Item>
+      <Item Datatype="String" Id="Textx/1/Input String" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">RCP Preseter</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Textx/8/Input Enum" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">@Malgun Gothic Semilight</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/13/Y Input Value" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">-0.7500006, 0.8699985</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/14/Y Input Value" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">0.1999998, 0.21</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Textx_12">
+    <Values>
+      <Item Datatype="String" Id="Textx/1/Input String" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">GoGoGo</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Textx/8/Input Enum" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">November</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/13/Y Input Value" Userdata="PinID;20;0;0.8196714;Linear;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">0.6899993, -0.6408064</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/14/Y Input Value" Userdata="PinID;20;0;0.4918027;Linear;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">0.7001219, 0.5500829</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Patch1_6" Tag="lis white">
+    <Values>
+      <Item Datatype="Rgba" Id="Patch1/2/Color Input" Userdata="PinID;19;0;0.6557372;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Color4">0.2235294, 0.2235294, 0.2235294, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/4/Y Input Value" Userdata="PinID;19;0;2;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.04000044, 0.7299993, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/8/Y Input Value" Userdata="PinID;19;0;2;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0, 1.13, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/12/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">149.7647</Value>
+      </Item>
+      <Item Datatype="Int32" Id="Patch1/14/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Int32">71</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/18/Y Input Value" Userdata="PinID;19;0;1.639346;Sine;InOut">
+        <Value r:Type="System.Single">1.604277</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/19/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">-0.9625651</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/21/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">15.4</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/22/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">49.16</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/23/Y Input Value" Userdata="PinID;19;0;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.08019309, -0.03985226, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/31/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">0.5812833</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/33/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">0.9976467</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Patch1/45/Input Enum" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.String">Add</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Patch1_24">
+    <Values>
+      <Item Datatype="Float32" Id="Patch1/33/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">1.625668</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Patch1_22">
+    <Values>
+      <Item Datatype="Float32" Id="Patch1/33/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">0.652405</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Patch1_23">
+    <Values>
+      <Item Datatype="Float32" Id="Patch1/33/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">0.9304798</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Patch1_20">
+    <Values>
+      <Item Datatype="Vector3f32" Id="Patch1/4/Y Input Value" Userdata="PinID;19;1;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.04000044, 1.059999, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/8/Y Input Value" Userdata="PinID;19;1;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.19, 0.4799999, -0.41</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/12/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">149.7647</Value>
+      </Item>
+      <Item Datatype="Int32" Id="Patch1/14/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Int32">71</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/18/Y Input Value" Userdata="PinID;19;1;0;Sine;InOut">
+        <Value r:Type="System.Single">1.604277</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/19/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">-0.9625651</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/21/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">15.4</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/22/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">49.16</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/23/Y Input Value" Userdata="PinID;19;1;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.08019309, -0.03985226, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/31/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">0.5812833</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/33/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">0.6844907</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Patch1/45/Input Enum" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.String">Add</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Patch1_21">
+    <Values>
+      <Item Datatype="Float32" Id="Patch1/33/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">0.08556017</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Patch1_5">
+    <Values>
+      <Item Datatype="Rgba" Id="Patch1/2/Color Input" Userdata="PinID;19;0;1.967207;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Color4">0.3921569, 0.5882353, 0.345098, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/4/Y Input Value" Userdata="PinID;19;0;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.01000047, 3.06, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/8/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0, -0.1000001, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/12/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">149.7647</Value>
+      </Item>
+      <Item Datatype="Int32" Id="Patch1/14/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Int32">71</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/18/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">1.604277</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/19/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">-0.9625651</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/21/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">15.4</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/22/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">49.16</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/23/Y Input Value" Userdata="PinID;19;0;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.08019309, -0.03985226, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/31/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">0.5812833</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/33/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">0.9976467</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Patch1/45/Input Enum" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.String">Add</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Textx_1">
+    <Values>
+      <Item Datatype="String" Id="Textx/1/Input String" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">RCP Preseter</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Textx/8/Input Enum" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">@Malgun Gothic Semilight</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/13/Y Input Value" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">-0.7500006, 0.8699985</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/14/Y Input Value" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">0.1999998, 0.21</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Textx_3">
+    <Values>
+      <Item Datatype="String" Id="Textx/1/Input String" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">GoGoGo</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Textx/8/Input Enum" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">HarvestItal</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/13/Y Input Value" Userdata="PinID;20;0;3.27869;Elastic;OutIn">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">0.0003662705, -0.6415442</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/14/Y Input Value" Userdata="PinID;20;0;0.4918027;Linear;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">0.7001219, 0.5500829</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Textx_2">
+    <Values>
+      <Item Datatype="String" Id="Textx/1/Input String" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">RCP Preseter</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Textx/8/Input Enum" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">@Malgun Gothic Semilight</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/13/Y Input Value" Userdata="PinID;20;0;1.639346;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">0.6899993, 0.8699985</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/14/Y Input Value" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">0.1999998, 0.21</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Textx_5">
+    <Values>
+      <Item Datatype="String" Id="Textx/1/Input String" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">GoGoGo</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Textx/8/Input Enum" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">HarvestItal</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/13/Y Input Value" Userdata="PinID;20;0;3.27869;Elastic;OutIn">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">0.0003662705, -0.6415442</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/14/Y Input Value" Userdata="PinID;20;0;0.4918027;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">0, 0</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Textx_4">
+    <Values>
+      <Item Datatype="String" Id="Textx/1/Input String" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">GoGoGo</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Textx/8/Input Enum" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">November</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/13/Y Input Value" Userdata="PinID;20;0;0.8196714;Bounce;OutIn">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">0, -0.6408064</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/14/Y Input Value" Userdata="PinID;20;0;0.4918027;Bounce;OutIn">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">0.7001219, 0.5500829</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Patch1_17">
+    <Values>
+      <Item Datatype="Vector3f32" Id="Patch1/4/Y Input Value" Userdata="PinID;19;1;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.04000044, 3.06, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/8/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0, 0, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/12/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">3</Value>
+      </Item>
+      <Item Datatype="Int32" Id="Patch1/14/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Int32">71</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/18/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">1.29</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/19/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">-3.8</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/21/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">15.4</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/22/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">49.16</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/23/Y Input Value" Userdata="PinID;19;1;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.08019309, -1.159852, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/31/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">0.1</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/33/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">0.88</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Patch1/45/Input Enum" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.String">Add</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Patch1_10" Tag="blue">
+    <Values>
+      <Item Datatype="Rgba" Id="Patch1/2/Color Input" Userdata="PinID;19;1;0.9836011;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Color4">0.3254902, 0.6078432, 0.5764706, 1</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Patch1_11" Tag="pink">
+    <Values>
+      <Item Datatype="Rgba" Id="Patch1/2/Color Input" Userdata="PinID;19;1;0.6557372;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Color4">0.4509804, 0.007843138, 0.2980392, 1</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Patch1_18">
+    <Values>
+      <Item Datatype="Vector3f32" Id="Patch1/4/Y Input Value" Userdata="PinID;19;1;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.04000044, 0.7299993, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/8/Y Input Value" Userdata="PinID;19;1;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0, 1.13, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/12/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">149.7647</Value>
+      </Item>
+      <Item Datatype="Int32" Id="Patch1/14/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Int32">71</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/18/Y Input Value" Userdata="PinID;19;1;0;Sine;InOut">
+        <Value r:Type="System.Single">1.604277</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/19/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">-0.9625651</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/21/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">15.4</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/22/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">49.16</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/23/Y Input Value" Userdata="PinID;19;1;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.08019309, -0.03985226, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/31/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">0.5812833</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/33/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">0.9976467</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Patch1/45/Input Enum" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.String">Add</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Patch1_19">
+    <Values>
+      <Item Datatype="Vector3f32" Id="Patch1/4/Y Input Value" Userdata="PinID;19;1;0;Quint;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.04000044, 1.419999, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/8/Y Input Value" Userdata="PinID;19;1;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0, 0.8999999, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/12/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">149.7647</Value>
+      </Item>
+      <Item Datatype="Int32" Id="Patch1/14/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Int32">71</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/18/Y Input Value" Userdata="PinID;19;1;0;Sine;In">
+        <Value r:Type="System.Single">-1.176471</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/19/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">-0.9625651</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/21/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">15.4</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/22/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">49.16</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/23/Y Input Value" Userdata="PinID;19;1;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.08019309, -0.03985226, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/31/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">0.5812833</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/33/Y Input Value" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.Single">0.9976467</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Patch1/45/Input Enum" Userdata="PinID;19;1;0;Linear;In">
+        <Value r:Type="System.String">Add</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="All_24" Tag="  ">
+    <Values>
+      <Item Datatype="Rgba" Id="Patch1/2/Color Input" Userdata="PinID;19;0;2.131145;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Color4">0.7176471, 0.2196078, 0.6784314, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/4/Y Input Value" Userdata="PinID;19;0;2.622951;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.04000044, 0, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/8/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0, 0, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/12/Y Input Value" Userdata="PinID;19;0;2.131147;Linear;In">
+        <Value r:Type="System.Single">3</Value>
+      </Item>
+      <Item Datatype="Int32" Id="Patch1/14/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Int32">71</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/18/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">1.29</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/19/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">-3.8</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/21/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">15.4</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/22/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">49.16</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/23/Y Input Value" Userdata="PinID;19;0;2.786887;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.08019309, -1.159852, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/31/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">0.1</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/33/Y Input Value" Userdata="PinID;19;0;1.475408;Linear;In">
+        <Value r:Type="System.Single">0.88</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Patch1/45/Input Enum" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.String">Add</Value>
+      </Item>
+      <Item Datatype="String" Id="Textx/1/Input String" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">RCP Preseter</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Textx/8/Input Enum" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">@Malgun Gothic Semilight</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/13/Y Input Value" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">-0.7500006, 0.8699985</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/14/Y Input Value" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">0.1999998, 0.21</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="All_9" Tag=" ">
+    <Values>
+      <Item Datatype="Rgba" Id="Patch1/2/Color Input" Userdata="PinID;19;0;2.131145;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Color4">0.7176471, 0.2196078, 0.6784314, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/4/Y Input Value" Userdata="PinID;19;0;2.622951;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.04000044, 0, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/8/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0, 0, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/12/Y Input Value" Userdata="PinID;19;0;2.131147;Linear;In">
+        <Value r:Type="System.Single">3</Value>
+      </Item>
+      <Item Datatype="Int32" Id="Patch1/14/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Int32">71</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/18/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">1.29</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/19/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">-3.8</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/21/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">15.4</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/22/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">49.16</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/23/Y Input Value" Userdata="PinID;19;0;2.786887;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.08019309, -1.159852, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/31/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">0.1</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/33/Y Input Value" Userdata="PinID;19;0;1.475408;Linear;In">
+        <Value r:Type="System.Single">0.88</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Patch1/45/Input Enum" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.String">Add</Value>
+      </Item>
+      <Item Datatype="String" Id="Textx/1/Input String" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">RCP Preseter</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Textx/8/Input Enum" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">@Malgun Gothic Semilight</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/13/Y Input Value" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">-0.7500006, 0.8699985</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/14/Y Input Value" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">0.1999998, 0.21</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="All_1" Tag="init">
+    <Values>
+      <Item Datatype="Rgba" Id="Patch1/2/Color Input" Userdata="PinID;19;0;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Color4">0.7176471, 0.2196078, 0.6784314, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/4/Y Input Value" Userdata="PinID;19;0;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.04000044, 0, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/8/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0, 0, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/12/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">3</Value>
+      </Item>
+      <Item Datatype="Int32" Id="Patch1/14/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Int32">71</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/18/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">1.29</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/19/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">-3.8</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/21/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">15.4</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/22/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">49.16</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/23/Y Input Value" Userdata="PinID;19;0;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.08019309, -1.159852, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/31/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">0.1</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/33/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">0.88</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Patch1/45/Input Enum" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.String">Add</Value>
+      </Item>
+      <Item Datatype="String" Id="Textx/1/Input String" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">RCP Preseter</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Textx/8/Input Enum" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">@Malgun Gothic Semilight</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/13/Y Input Value" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">-0.7500006, 0.8699985</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/14/Y Input Value" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">0.1999998, 0.21</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="All_2" Tag="ff">
+    <Values>
+      <Item Datatype="Rgba" Id="Patch1/2/Color Input" Userdata="PinID;19;0;2.131145;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Color4">0.7215686, 0.2235294, 0.6784314, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/4/Y Input Value" Userdata="PinID;19;0;2.622951;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.1599998, 6.110001, 3.3</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/8/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0, 0, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/12/Y Input Value" Userdata="PinID;19;0;2.131147;Linear;In">
+        <Value r:Type="System.Single">3</Value>
+      </Item>
+      <Item Datatype="Int32" Id="Patch1/14/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Int32">71</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/18/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">1.29</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/19/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">-3.8</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/21/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">15.4</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/22/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">49.16</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/23/Y Input Value" Userdata="PinID;19;0;2.786887;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">-0.02980681, -1.179852, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/31/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">0.1</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/33/Y Input Value" Userdata="PinID;19;0;1.475408;Linear;In">
+        <Value r:Type="System.Single">0.88</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/35/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">-3.007519E+07</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Patch1/45/Input Enum" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.String">Add</Value>
+      </Item>
+      <Item Datatype="String" Id="Textx/1/Input String" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">Preseter.VL</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Textx/8/Input Enum" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">@Malgun Gothic Semilight</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/13/Y Input Value" Userdata="PinID;20;0;2.950825;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">-0.1700004, -0.83</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/14/Y Input Value" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">0.1999998, 0.21</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Patch1_7">
+    <Values>
+      <Item Datatype="Rgba" Id="Patch1/2/Color Input" Userdata="PinID;19;0;0.6557372;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Color4">0.2235294, 0.2235294, 0.2235294, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/4/Y Input Value" Userdata="PinID;19;0;4;Quint;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.04000044, 1.419999, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/8/Y Input Value" Userdata="PinID;19;0;4;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0, 0.8999999, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/12/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">149.7647</Value>
+      </Item>
+      <Item Datatype="Int32" Id="Patch1/14/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Int32">71</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/18/Y Input Value" Userdata="PinID;19;0;2.622952;Sine;In">
+        <Value r:Type="System.Single">-1.176471</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/19/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">-0.9625651</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/21/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">15.4</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/22/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">49.16</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/23/Y Input Value" Userdata="PinID;19;0;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.08019309, -0.03985226, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/31/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">0.5812833</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/33/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">0.9976467</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Patch1/45/Input Enum" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.String">Add</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Patch1_2">
+    <Values>
+      <Item Datatype="Rgba" Id="Patch1/2/Color Input" Userdata="PinID;19;0;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Color4">0.7176471, 0.2196078, 0.6784314, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/4/Y Input Value" Userdata="PinID;19;0;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.04000044, 3.06, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/8/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0, 0, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/12/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">3</Value>
+      </Item>
+      <Item Datatype="Int32" Id="Patch1/14/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Int32">71</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/18/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">1.29</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/19/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">-3.8</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/21/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">15.4</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/22/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">49.16</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/23/Y Input Value" Userdata="PinID;19;0;0;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.08019309, -1.159852, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/31/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">0.1</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/33/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">0.88</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Patch1/45/Input Enum" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.String">Add</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Patch1_9" Tag="green">
+    <Values>
+      <Item Datatype="Rgba" Id="Patch1/2/Color Input" Userdata="PinID;19;1;1.967207;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Color4">0.3921569, 0.5882353, 0.345098, 1</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="All_15" Tag=" ">
+    <Values>
+      <Item Datatype="Rgba" Id="Patch1/2/Color Input" Userdata="PinID;19;0;2.131145;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Color4">0.7176471, 0.2196078, 0.6784314, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/4/Y Input Value" Userdata="PinID;19;0;2.622951;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.04000044, 0, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/8/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0, 0, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/12/Y Input Value" Userdata="PinID;19;0;2.131147;Linear;In">
+        <Value r:Type="System.Single">3</Value>
+      </Item>
+      <Item Datatype="Int32" Id="Patch1/14/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Int32">71</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/18/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">1.29</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/19/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">-3.8</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/21/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">15.4</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/22/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">49.16</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/23/Y Input Value" Userdata="PinID;19;0;2.786887;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.08019309, -1.159852, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/31/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">0.1</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/33/Y Input Value" Userdata="PinID;19;0;1.475408;Linear;In">
+        <Value r:Type="System.Single">0.88</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Patch1/45/Input Enum" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.String">Add</Value>
+      </Item>
+      <Item Datatype="String" Id="Textx/1/Input String" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">RCP Preseter</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Textx/8/Input Enum" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">@Malgun Gothic Semilight</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/13/Y Input Value" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">-0.7500006, 0.8699985</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/14/Y Input Value" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">0.1999998, 0.21</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Patch1_1" Tag="ff">
+    <Values>
+      <Item Datatype="Rgba" Id="Patch1/2/Color Input" Userdata="PinID;19;0;2.131145;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Color4">0, 0.04313726, 0.6784314, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/4/Y Input Value" Userdata="PinID;19;0;2.622951;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.1599998, 6.110001, 3.3</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/8/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0, 0, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/12/Y Input Value" Userdata="PinID;19;0;2.131147;Linear;In">
+        <Value r:Type="System.Single">3</Value>
+      </Item>
+      <Item Datatype="Int32" Id="Patch1/14/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Int32">71</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/18/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">1.29</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/19/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">-3.8</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/21/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">15.4</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/22/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">49.16</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/23/Y Input Value" Userdata="PinID;19;0;2.786887;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">-0.02980681, -1.179852, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/31/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">0.1</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/33/Y Input Value" Userdata="PinID;19;0;1.475408;Linear;In">
+        <Value r:Type="System.Single">0.88</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/35/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">-3.007519E+07</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Patch1/45/Input Enum" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.String">Add</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="All_10" Tag=" ">
+    <Values>
+      <Item Datatype="Rgba" Id="Patch1/2/Color Input" Userdata="PinID;19;0;2.131145;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Color4">0.7176471, 0.2196078, 0.6784314, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/4/Y Input Value" Userdata="PinID;19;0;2.622951;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.04000044, 0, 1</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/8/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0, 0, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/12/Y Input Value" Userdata="PinID;19;0;2.131147;Linear;In">
+        <Value r:Type="System.Single">3</Value>
+      </Item>
+      <Item Datatype="Int32" Id="Patch1/14/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Int32">71</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/18/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">1.29</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/19/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">-3.8</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/21/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">15.4</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/22/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">49.16</Value>
+      </Item>
+      <Item Datatype="Vector3f32" Id="Patch1/23/Y Input Value" Userdata="PinID;19;0;2.786887;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Vector3">0.08019309, -1.159852, 0</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/31/Y Input Value" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.Single">0.1</Value>
+      </Item>
+      <Item Datatype="Float32" Id="Patch1/33/Y Input Value" Userdata="PinID;19;0;1.475408;Linear;In">
+        <Value r:Type="System.Single">0.88</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Patch1/45/Input Enum" Userdata="PinID;19;0;0;Linear;In">
+        <Value r:Type="System.String">Add</Value>
+      </Item>
+      <Item Datatype="String" Id="Textx/1/Input String" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">RCP Preseter</Value>
+      </Item>
+      <Item Datatype="Enum" Id="Textx/8/Input Enum" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="System.String">@Malgun Gothic Semilight</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/13/Y Input Value" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">-0.7500006, 0.8699985</Value>
+      </Item>
+      <Item Datatype="Vector2f32" Id="Textx/14/Y Input Value" Userdata="PinID;20;0;0;Linear;In">
+        <Value r:Type="Xenko.Core.Mathematics.Vector2">0.1999998, 0.21</Value>
+      </Item>
+    </Values>
+  </Item>
+  <Item Name="Patch1_4">
+    <Values>
+      <Item Datatype="Rgba" Id="Patch1/2/Color Input" Userdata="PinID;19;1;1.967207;Sine;InOut">
+        <Value r:Type="Xenko.Core.Mathematics.Color4">0.1254902, 0.2352941, 0.1647059, 1</Value>
+      </Item>
+    </Values>
+  </Item>
+</Spread>
